@@ -36,17 +36,88 @@ main {
     margin-top: 2rem;
 }
 
+.imgFrontpage {
+    transition: transform 0.5s ease;
+}
+
+.imgFrontpage:hover {
+    transform: scale(1.1);
+}
+
+.imgKatsuki {
+    transition: transform 0.5s ease;
+}
+
+.imgKatsuki:hover {
+    transform: scale(1.1);
+}
+
+.imgShoto {
+    transition: transform 0.5s ease;
+}
+
+.imgShoto:hover {
+    transform: scale(1.1);
+}
+
 .imgClass1A {
     grid-column: 3 / span 2;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 2; 
+    transition: transform 0.5s ease;
+}
+
+.imgClass1A:hover {
+    transform: scale(1.1);
+}
+
+.imgTenko {
+    transition: transform 0.5s ease;
+}
+
+.imgTenko:hover {
+    transform: scale(1.1);
 }
 
 .imgTogether {
     grid-column: 1 / span 2;
     grid-row-start: 2;
+    transition: transform 0.5s ease;
+}
+
+.imgTogether:hover {
+    transform: scale(1.1);
+}
+
+.imgAllforone {
+    transition: transform 0.5s ease;
+}
+
+.imgAllforone:hover {
+    transform: scale(1.1);
+}
+
+.imgIzuku {
+    transition: transform 0.5s ease;
+}
+
+.imgIzuku:hover {
+    transform: scale(1.1);
+}
+
+.imgToshinori {
+    transition: transform 0.5s ease;
+}
+
+.imgToshinori:hover {
+    transform: scale(1.1);
 }
 
 .imgAttack {
     grid-column: 3 / span 3;
     grid-row-start: 3;
+    transition: transform 0.5s ease;
+}
+
+.imgAttack:hover {
+    transform: scale(1.1);
 }
