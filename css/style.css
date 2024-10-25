@@ -1,0 +1,52 @@
+body {
+    margin: 2rem 7rem 2rem 7rem;
+}
+header {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+div {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 5rem;
+}
+
+.title {
+    text-align: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+main {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 2rem;
+}
+
+.imgClass1A {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.imgTogether {
+    grid-column: 1 / span 2;
+    grid-row-start: 2;
+}
+
+.imgAttack {
+    grid-column: 3 / span 3;
+    grid-row-start: 3;
+}
